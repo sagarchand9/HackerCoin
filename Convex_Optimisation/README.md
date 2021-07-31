@@ -2,7 +2,7 @@ Here we are using returns as an indicator as it made more sense that to directly
 
 Variable matrix x is weights of different currencies here. 
 
-###Condition 1 - 
+### Condition 1 - 
 
 Sum of weights should be positive.
 
@@ -13,7 +13,7 @@ Matrix A is 1x10 dim with all 1's. b is 1x1 dim with val 1.
 This gives w1 + w2 + ... w10 = 1
 
 
-###Condition 2 - 
+### Condition 2 - 
 
 Weights are all positive
 
@@ -23,7 +23,7 @@ G is 10x10 diagonal matrix with values -1. h is 10x1 will all 0's
 
 This gives each of the weights is >= 0
 
-###Objective
+### Objective
 
 Our objective is to minimize volatility.
 
